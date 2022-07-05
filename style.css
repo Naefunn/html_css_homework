@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    margin: 0;
+    
+}
+
+header h1 {
+    width: 80%;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+header nav {
+    text-align: right;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    color: white;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+}
+
+aside {
+    margin-left: 100px;
+
+    text-align: left;
+}
+
+#emailbox {
+    margin-bottom: 10px;
+}
+
+#passwordbox {
+    margin-bottom: 10px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainArticle {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer {
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+    padding: 16px;
+}
